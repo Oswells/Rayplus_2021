@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+}
+
+.main_body {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.title img {
+    position: relative;
+    margin: 0 auto;
+    width: 235px;
+    padding-bottom: 30px;
+
+}
+
+.item {
+    width: 100%;
+    height: 51px;
+    margin: 0 auto;
+
+}
+
+.text_input {
+    height: 45px;
+    font-family: 'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #555555;
+    text-align: left;
+    line-height: normal;
+    -moz-box-sizing: border-box;
+}
+
+.index_item {
+    padding-top: 28px;
+}
+
+.index_text_input {
+    width: 330px;
+}
+
+.r1_item {
+    width: 336px;
+    height: 51px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.ax_shape {
+    width: 330px;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.nh {
+    background-image: url(../img/u16.png);
+}
+
+.nh:hover {
+    background-image: url(../img/u16_mouseOver.png);
+}
+
+.dl {
+    width: 100%;
+    padding-top: 8px;
+    height: 30px;
+    display: block;
+}
+
+.ex {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 230px;
+    height: 45px;
+    font-family: 'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.exf {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ext1 {
+    cursor: pointer;
+}
+
+.petLogo {
+    width: 180px;
+    margin: 50px auto 0 auto;
+}
+
+.contact {
+    position: relative;
+    margin-left: 130px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    right: 80px;
+    cursor: pointer;
+    width: 90px;
+
+}
+
+.r1_code1 {
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -45px;
+    display: block;
+    float: left;
+}
+
+.r1_text_input {
+    width: 330px;
+}
+
+.r1_text_input1 {
+    display: block;
+    float: left;
+    width: 330px;
+}
+
+.r1_text_input2 {
+    display: block;
+    float: left;
+}
+
+.r1_code2 {
+    display: inline;
+    position: relative;
+    top: -39px;
+    right: 10px;
+    float: right;
+    height: 25px;
+    width: 140px;
+    padding-top: 6px;
+    border: 1px #666 solid;
+    border-radius: 4px;
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.r1_r1 {
+    border: 1px #666 solid;
+    border-radius: 8px;
+    width: 200px;
+    height: 45px;
+}
+
+.r1_re {
+    margin-top: 10px;
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.r1_item a {
+    text-decoration: none;
+    color: #FF9933;
+}
+
+.r1_item a:hover {
+    text-decoration: none;
+    color: rgb(23, 142, 203);
+}
+
+.relogin {
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    height: 30px;
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+
+.textdl {
+    color: #FF9933;
+    display: inline;
+    cursor: pointer;
+}
+
+.r1m_item {
+    width: 230px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.r1m_text {
+    font-family: 'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    color: #999999;
+    white-space: nowrap;
+    text-align: center;
+    line-height: normal;
+}
+
+.r1m_reSend {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.r2a_dl {
+    text-align: left;
+}
+
+.forget_title {
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #666666;
+    text-align: left;
+    line-height: 50px;
+    width: 700px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+#forget_form_phone {
+    display: none;
+}
+
+#forget_form_mail {
+    display: none;
+}
+
+.forget_mp {
+    height: 200px;
+}
+
+.forget_phone_body {
+    margin-left: 100px;
+    width: 170px;
+    float: left;
+}
+
+.forget_mail_body {
+    margin-left: 150px;
+    width: 170px;
+    float: left;
+}
+
+.forget_image {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.forget_mptext {
+    cursor: pointer;
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #666666;
+    text-align: left;
+    line-height: normal;
+    display: block;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RayPlus</title>
+    <link href="./css/index.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="main_body">
+	<div class="title">
+    	<img src="../img/imgview_logo.png">
+    </div>
+    <form action="./jmp.php?FFF=800" method="post" enctype="application/x-www-form-urlencoded">
+    	<div class="item index_item">
+            <input id="inputUserName" class="text_input index_text_input" type="text" placeholder="用户名" name="username" />
+        </div>
+        <div class="item index_item">
+        	<input id="inputPassword" class="text_input index_text_input" type="password" placeholder="密码" name="password" onkeydown="if(event.keyCode==13){login();}" />
+        </div>
+    <input type="radio" name="choosetype" value="CRF" onclick=jump()>CRF
+        <div class="ax_shape nh">
+        	<!--<span class="dl" onclick="login()">登陆</span> -->
+		<span class="dl" onclick="login()">login in</span>
+        </div>
+			</form>
+    <div class="ex">
+    	<!--<span class="exf ext1" onclick="forgetpassword()">忘记密码？</span>
+    	<span class="exf ext1" onclick="tor1()">注册</span>
+    	<span class="exf ext1" onclick="test()">试用</span> -->
+	<span class="exf ext1" onclick="forgetpassword()">forget password?</span>
+    	<span class="exf ext1" onclick="tor1()">register</span>
+    	<span class="exf ext1" onclick="test()">try</span>
+    </div>
+  		<div  class="petLogo">
+        <a href="mailto:jingli2012@hust.edu.cn" style="text-decoration: none"><div class="contact">contact us</div></a>
+  		</div>
+</div>
+</body>
+  <script type="text/javascript">
+        function jump(){
+        window.location.href='http://rayplus.life.hust.edu.cn/CRF/Login/Login.html';
+        }
+  	function test(){
+  		var myForm = document.forms[0];
+  		myForm.username.value="testuser";
+  		myForm.password.value="123456";
+  		myForm.submit();
+  	}
+  	function login(){
+  		var myForm = document.forms[0];
+  		myForm.submit();
+  	}
+	function tor1()
+	{
+		window.location.href="./r1.html";
+	}
+	function forgetpassword()
+	{
+		window.location.href="./FPW.html";
+	}
+
+  </script>
+</html>
